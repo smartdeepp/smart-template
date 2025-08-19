@@ -1,0 +1,5 @@
+echo "Running ---------------- \033[1mTypeScript typecheck\033[0m ----------------"
+pnpm run type-check
+
+echo "Running ---------------- \033[1mlint-staged\033[0m ----------------"
+pnpm run lint-staged
