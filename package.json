@@ -88,5 +88,10 @@
     "vite": "^7.1.2",
     "vite-plugin-checker": "^0.10.2",
     "vite-tsconfig-paths": "^5.1.4"
-  }
+  },
+  "engines": {
+    "node": ">=20.*",
+    "pnpm": ">=10.*"
+  },
+  "engineStrict": true
 }
