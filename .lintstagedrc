@@ -1,9 +1,4 @@
 {
-  "*.{ts,tsx}": [
-    "pnpm run lint",
-    "pnpm run format"
-  ],
-  "*.css": [
-    "pnpm run format"
-  ]
+  "*.{ts,tsx}": ["pnpm run lint", "pnpm run format"],
+  "*.css": ["pnpm run format"]
 }
